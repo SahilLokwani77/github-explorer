@@ -13,7 +13,12 @@ app.use(helmet());
 const allowedOrigins = [
   "http://localhost:5173",
   "http://localhost:3000",
+  const allowedOrigins = [
+  "http://localhost:5173",
+  "http://localhost:3000",
+  "https://lambent-marshmallow-c9510b.netlify.app",
   process.env.CLIENT_ORIGIN,
+].filter(Boolean);
 ].filter(Boolean);
 
 app.use(
