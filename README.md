@@ -2,7 +2,7 @@
 
 A full-stack GitHub profile explorer built for the Studio Graphene take-home assessment (Exercise 3). Enter any GitHub username and the app fetches their public profile and repositories through a Node.js proxy backend — never directly from the browser. The backend caches each response for 60 seconds to respect GitHub's rate limits.
 
-**Live demo:** _[Add your deployed URL here]_
+**Live demo:** (https://lambent-marshmallow-c9510b.netlify.app)
 
 ---
 
